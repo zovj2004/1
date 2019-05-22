@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+}
+body{
+	background: url(images/flowers.jpg);
+	max-width: 1920px;
+	margin: 0 auto;	
+}
+header{
+	background: url(images/foto_01.png) no-repeat;
+
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+}
+.nav{
+	display: flex;
+	margin: 0 auto;
+	max-width: 1920px;
+	justify-content: space-between;
+	align-items: center;
+	background: rgba(137, 137, 137, .7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.nav li{
+	display: inline;
+	margin-right: 40px;
+	font-size: 18px; 
+	line-height: 2;
+}
+.nav a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.logo_text{
+	color: #ffffff;
+}
+.logo_text p{
+	float: right;
+	margin-top: 20%;
+}
+.text_header{
+	margin: 150px 0;
+	font-size: 92px;
+	align-self: center;
+	font-weight: bold;
+	text-align: center;	
+}
+.text_header p{
+	font-size: 18px ;
+	font-weight: normal;
+	text-align: center;
+}
+button{
+	font-size: 14px;
+	background: #ffc74a;
+	border: none;
+	border-radius: 15px;
+	padding: 8px;
+}
+main{
+	background: rgba(237,255,255,0.5);
+}
+/*все, що стосується галереї*/
+.galereya{
+	padding: 30px 0;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+.responsive {
+  padding: 0px;
+  float: left;
+  width: 24.99999%;
+}
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.zapyt, .enjoy{
+	font-size: 92px;
+	align-self: center;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*все, що стосується карток*/
+.price{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 0 auto;
+
+}
+.card {
+  float: left;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0 50px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.doclid{
+	padding: 40px;
+	background: rgba(87,255,255,0.5);
+}
+.doclid img{
+	float: right;
+	width: 50%;
+}
+.left_text_m{
+	float: left;
+	max-width: 49%;
+}
+.enjoy{
+	background: url(images/2222.jpg) no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 40px;
+}
+.lets_go{
+	width: 400px;
+}
+form button{
+	width: 100%;
+	height: 56px;
+	background-color: #ff9933;
+	border-style: none;
+	color: #ffffff;
+	font-size: 15px;
+	border-radius: 0px;
+}
+form input {
+	background-color: #d9f1ff69;
+	width: 100%;
+	border-style: none;
+	display: block;
+	border-color: #f7f7f7;
+
+	padding-top: 51px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+
+.social{
+	min-width: 100%;
+	box-sizing: border-box;
+	padding: 1.6% 10%;
+	min-height: 110px;
+	background: #ffffff;
+	color: black;
+}
+.social_t{
+	display: inline-block;
+	width: 198.56px;
+	line-height: 1;
+}
+.social_t h4{
+	margin-bottom: 10px;
+}
+.social_t p{
+	color: #999999;
+	font-size: 14px;
+}
+.buttons{
+	float: right;
+	display: block;
+}
+.buttons div{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin: 0 5px;
+}
+.buttons a{
+	display: block;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+}
+.F{
+	background: url(images/icons1.png);
+}
+.T{
+	background: url(images/icons2.png);
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
